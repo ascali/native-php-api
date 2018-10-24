@@ -1,7 +1,7 @@
 # Full tutorial is here https://www.codeofaninja.com/2017/02/create-simple-rest-api-in-php.html
 
 # MYSQL DB table categories and products
-sql`
+`
 CREATE TABLE IF NOT EXISTS categories (
   id INT(11) NOT NULL AUTO_INCREMENT,
   name VARCHAR(256) NOT NULL,
