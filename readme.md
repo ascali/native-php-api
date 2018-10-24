@@ -1,7 +1,8 @@
 # Full tutorial is here https://www.codeofaninja.com/2017/02/create-simple-rest-api-in-php.html
 
 # MYSQL DB table categories and products
-`
+
+--------------------------------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS categories (
   id INT(11) NOT NULL AUTO_INCREMENT,
   name VARCHAR(256) NOT NULL,
@@ -52,4 +53,4 @@ INSERT INTO products (id, name, description, price, category_id, created, modifi
 (60, 'Rolex Watch', 'Luxury watch.', '25000', 1, '2016-01-11 15:46:02', '2016-01-11 14:46:02');
 --------------------------------------------------------------------------------------------------
 SELECT * FROM products;
-`
+--------------------------------------------------------------------------------------------------
